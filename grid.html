@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+         .grid {
+            display: grid;
+            grid-auto-rows: minmax(100px, auto);
+        }
+        .premier {
+            grid-column: 1;
+            grid-row: 1;
+            background-color: blue;
+        }
+        .deuxieme {
+            grid-column: 2;
+            grid-row: 1;
+            background-color: blueviolet;
+        }
+        .troisieme {
+            grid-column: 1;
+            grid-row: 2;
+            background-color: burlywood;
+        }
+        .quatrieme {
+            grid-column: 2;
+            grid-row: 2;
+            background-color: chartreuse;
+        }
+        .cinquieme {
+            grid-column: 1;
+            grid-row: 3;
+            background-color: crimson;
+        }
+        .sixieme {
+            grid-column: 2;
+            grid-row: 3;
+            background-color: darkorange;
+        }
+        .grid {
+            display: grid;
+            grid-auto-rows: minmax(100px, auto);
+        }
+        .first {
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-color: blue;
+        }
+        .second {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 5;
+            background-color: burlywood;
+        }
+        .third{
+            grid-column-start: 2;
+            grid-column-end: 5;
+            grid-row-start: 3;
+            grid-row-end: 5;
+            background-color: blueviolet;
+        }
+    </style>
+   <body>
+    <div class="grid">
+        <div class="premier">1</div>
+        <div class="deuxieme">2</div>
+        <div class="troisieme">3</div>
+        <div class="quatrieme">4</div>
+        <div class="cinquieme">5</div>
+        <div class="sixieme">6</div>
+    </div>
+    <br>
+    <br>
+    <div class="grid">
+    <div class="first">1</div>
+        <div class="second">2</div>
+        <div class="third">3</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,58 @@
+body{
+    margin: 0px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    background-color: white;
+
+}
+.entete{
+    width: 1000px;
+    height: 400px;
+    background-color: rgb(224, 219, 219);
+    text-align: center;
+    padding: 10px;
+    margin-left: 200PX ;
+    padding-bottom: 0px;
+    justify-content: center;
+}
+
+.entete em span {
+    font-weight: bold;
+}
+
+.adresse{
+    float: right;
+    display: block;
+    text-align: end;
+    padding-right: 15px;
+}
+
+.annee{
+    margin-left: 200PX ;
+    
+}
+
+h2{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 130px;
+    background-color: rgb(224, 219, 219);
+    display: block;
+    color: blue;
+}
+
+ul{
+    padding-left: 260px;
+    
+}
+
+li{
+    list-style-type: square;
+    margin-right: 130px;
+}   
+
+h3{
+   font-weight: 900;
+   font-weight: bold;
+   display: inline;                      
+}

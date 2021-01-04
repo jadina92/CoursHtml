@@ -1,0 +1,99 @@
+.titre{
+    background-color: rosybrown;
+    color: slateblue;
+}
+img{
+    border: 1px solid rgb(255, 255, 255);
+    border: 4px;
+    padding: 5px;
+    width: 150px;
+}  
+@font-face{
+    font-family: mypolice;
+    src: ("assets\css\font\russo_one\Russo_One.ttf") ;
+} 
+
+body {
+    margin: 0;
+    font-family: mypolice;
+    background: linear-gradient(to bottom right, blue, white);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.navbar ul{
+    position: fixed;
+    list-style-type: none;
+    margin:0;
+    top: 0px;
+    padding:0;
+    width: 100%;
+    overflow: hidden;
+    background-color: cadetblue;
+}
+.navbar-item{
+   float: left; 
+}
+.navbar-item a{
+    display: block;
+    color: cornsilk;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar-item a:hover{
+    background-color: darkgrey;
+}
+.active {
+    background-color: darkblue;
+}
+.container {
+    display: block;
+    margin: 65px;
+}
+#mypara{
+    background-color: yellowgreen;
+}
+.footer {
+    background: -ms-linear-gradient( bottom right, red, blue);
+    background: -moz-linear-gradient( bottom right, red, blue);
+    background: -webkit-linear-gradient( bottom right, red, blue);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding-top: 50px;
+    height: 50px;
+}
+.mypara{
+    text-align: center;
+}
+.gradient-vertical
+{
+width:400px;
+height: 200px;
+background: -ms-linear-gradient(top, rgb(221, 13, 13), rgb(25, 139, 21));
+background: -moz-linear-gradient(top, rgb(221, 13, 13), rgb(25, 139, 21));
+background: -webkit-linear-gradient(top, rgb(221, 13, 13), rgb(25, 139, 21));
+border-radius: 50px;
+text-align: center;
+}
+.gradient-horizontal
+{
+width:400px;
+height: 200px;
+background: -ms-linear-gradient(left, red, blue);
+background: -moz-linear-gradient( left, red, blue);
+background: -webkit-linear-gradient( left, red, blue);
+border-radius: 50px;
+text-align: center;
+
+}
+.paragraph{
+
+display:inline-block;
+text-align:left;
+background:#dce;
+width:150px;
+padding:20px;
+margin: 20px;
+}
